@@ -1,0 +1,24 @@
+# Flutter-specific build output directories
+/build/
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/App.framework
+
+# Xcode-specific files
+.DS_Store
+.idea/
+
+# Android build outputs
+/android/app/build/
+/android/.gradle/
+
+# IntelliJ and Android Studio
+.idea/
+*.iml
+
+# Visual Studio Code settings
+.vscode/
+
+# Other common file types to exclude
+*.log
+*.tmp
