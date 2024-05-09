@@ -55,13 +55,13 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
       {required String email, required String password}) async {
     try {
       emit(AuthState.loading(currentState: state));
-      if (email == 'vipulbansalkkp@gmail.com' && password == '123456') {
+      if (email.toLowerCase() == 'vipul@xpertstechsolutions.com' && password == 'vipul') {
         emit(AuthState.success(
             AuthEventApiState.signInState,
             Profile(
                 avatarPath: null,
                 name: 'Vipul Bansal',
-                email: 'vipulbansalkkp@gmail.com',
+                email: email,
                 workExperience: '8 years',
                 skills: 'Android, Flutter'),
             currentState: state));
