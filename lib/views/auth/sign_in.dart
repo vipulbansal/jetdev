@@ -88,7 +88,7 @@ class _SignInState extends State<SignIn> {
                   verticalSpacer(15),
                   CustomPasswordTextTitleField(
                     isPassword: _passwordVisible,
-                    hint: '123456',
+                    hint: 'password',
                     controller: passwordController,
                     onPressedValue: () {
                       setState(() {
